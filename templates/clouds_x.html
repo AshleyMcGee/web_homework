@@ -1,0 +1,28 @@
+{%extends "layout.html"%}
+{%block content%}
+  <!--  Row 1-->
+  <div class="row">
+      <div class="col-3 col-md-8 col-lg-8">
+        <h1>Cloudiness</h1>
+        <hr></hr>
+      </div>
+  </div>
+
+  <!--  Row 2-->
+    <div class="row">
+      <div class="col-3 col-md-8 col-lg-8">
+        <img src="/static/citylatclouds.png" width=100%>
+        <p>It would appear that directly near and south of the equator (north of -20 degrees south Latitude) cloudiness tends to taper off that day. Though relative humidity plays a role in cloud formation, it would appear that it is not necessarily a cause of cloud formation, which is the presence of water condensation in the atmosphere. Normally, clouds form when warm, humid air from the ground rises to an elevation cool enough to form condensation. As we see in the humidity figure, a large cluster of cities near the equator seemed to experience high humidity (approaching 100%). On the same day, same set of cities on the cloudiness figure, there is a gap corresponding to the cluster on the humidity figure. Some other mitigating factor plays a role in cloud formation, and it is my belief that elevation and population density may be the missing links. Without at least the elevation levels of those cities to visualize beside the humidity and cloudiness figures, there is no other reasonable explanation for the lack of clouds in cities near the equator experiencing near 100% relative humidity.
+        </p>
+      </div>
+      <div class="col-3 col-md-4 col-lg-4">
+        <h1>Visualizations</h1>
+        <a href="humid_x.html"><img src='/static/citylattemp.png' width=40%></a>
+        <a href="temp_x.html"><img src='/static/citylathumid.png' width=40%></a>
+        <a href="clouds_x.html"><img src='/static/citylatclouds.png' width=40%></a>
+        <a href="winds_x.html"><img src='/static/citylatwinds.png' width=40%></a>
+      </div>
+    </div>
+
+
+{%endblock%}

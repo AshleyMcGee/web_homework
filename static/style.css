@@ -1,0 +1,95 @@
+/* Styles override Bootstrap formatting */
+
+#navigation {
+
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+
+}
+
+#datLatitude {
+
+  background-color: darkgreen;
+  color: white;
+  font-family: serif;
+  margin-left: 150px;
+  margin-right: 40px;
+  border-color: lightblue;
+  border-style: solid;
+  border-width: 4px;
+
+}
+
+
+
+#linkNode {
+
+  text-align: right;
+  border-color: gray;
+  border-width: 4px;
+  border-style: solid;
+
+}
+
+#bodyContainer {
+
+    border-color: green;
+    border-width: 4px;
+    border-style: solid;
+    padding-bottom: 150px;
+    height: auto;
+}
+
+#mainBar {
+
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 65px;
+  margin-right: 55px;
+  border-color: red;
+  border-style: solid;
+  border-width: 4px;
+}
+
+
+
+#sideBar {
+
+  background-color: white;
+  margin-left: 65px;
+  margin-top: 50px;
+  margin-right: 55px;
+  border-color: blue;
+  border-style: solid;
+  border-width: 4px;
+
+}
+
+
+
+#cover {
+
+  float: left;
+
+}
+
+#footer {
+
+  border-color:  yellow;
+  border-width: 4px;
+  border-style: solid;
+  text-align: center;
+
+}
+
+#text {
+
+  font-size: 14px;
+  font-family: serif;
+  border-color: purple;
+  border-width: 4px;
+  border-style: solid;
+
+
+}
