@@ -2,27 +2,19 @@
 {%block content%}
   <!--  Row 1-->
   <div class="row">
-      <div class="col-3 col-md-8 col-lg-8">
+      <div id="tempMain" class="col-lg-6">
         <h1>Max Temperature</h1>
         <hr></hr>
-      </div>
-  </div>
-
-  <!--  Row 2-->
-    <div class="row">
-      <div class="col-3 col-md-8 col-lg-8">
-        <img src="/static/citylattemp.png" width=100%>
+        <img id="tempCover" src="/static/citylattemp-med.png">
         <p>Judging by the random sampling of coordinates taken from citipy, the city selection has a broad range of city locations. As we move below the equator, we can see that the high temperature for the day remained above 60 degrees Fahrenheit up to the -40 degrees south Latitude point. That is a significantly longer range of high temperatures than those above the equator, where temperatures begin to drop below 60 degrees Fahrenheit at about the 20 degrees north Latitude point. This has a lot to do with the fact that we're approaching fall south of the equator. Temperatures can be expected to be more mild this time of year. In the north-western and north-eastern hemispheres above the equator, we are experiencing a long, frigid winter. At roughly the equator, temperatures remain above 60 degrees Fahrenheit, with only 15 cities coming in with temperatures above 90 degrees Fahreneheit as of March 6, 2019. Given the persistent colloquialism that the closer to the equator one goes the hotter it gets, one would think more cities near the equator would report higher daily temperatures.
         </p>
       </div>
-      <div class="col-3 col-md-4 col-lg-4">
+      <div id="tempSide" class="col-lg-4">
         <h1>Visualizations</h1>
-        <a href="humid_x.html"><img src='/static/citylattemp.png' width=40%></a>
-        <a href="temp_x.html"><img src='/static/citylathumid.png' width=40%></a>
-        <a href="clouds_x.html"><img src='/static/citylatclouds.png' width=40%></a>
-        <a href="winds_x.html"><img src='/static/citylatwinds.png' width=40%></a>
+        <a href="temp_x.html"><img src='/static/citylattempthumb2.png'></a>
+        <a href="humid_x.html"><img src='/static/citylathumidthumb2.png'></a>
+        <a href="clouds_x.html"><img src='/static/citylatcloudsthumb2.png'></a>
+        <a href="winds_x.html"><img src='/static/citylatwindsthumb2.png'></a>
       </div>
-    </div>
-
-
+  </div>
 {%endblock%}
