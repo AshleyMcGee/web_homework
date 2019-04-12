@@ -6,7 +6,6 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-
 @app.route('/temp')
 def temps():
     return render_template("temp_x.html")

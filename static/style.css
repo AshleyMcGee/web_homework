@@ -1,23 +1,9 @@
 /* Styles override Bootstrap formatting */
 
-#navigation {
-
-  border-color: black;
-  border-width: 4px;
-  border-style: solid;
-
-}
-
 #datLatitude {
 
-  background-color: darkgreen;
-  color: white;
   font-family: serif;
-  margin-left: 150px;
-  margin-right: 40px;
-  border-color: lightblue;
-  border-style: solid;
-  border-width: 4px;
+  margin-left: 120px;
 
 }
 
@@ -25,18 +11,12 @@
 
 #linkNode {
 
-  text-align: right;
-  border-color: gray;
-  border-width: 4px;
-  border-style: solid;
+  margin-left: 75%;
 
 }
 
 #bodyContainer {
 
-    border-color: green;
-    border-width: 4px;
-    border-style: solid;
     padding-bottom: 150px;
     height: auto;
 }
@@ -47,9 +27,7 @@
   margin-top: 50px;
   margin-left: 65px;
   margin-right: 55px;
-  border-color: red;
-  border-style: solid;
-  border-width: 4px;
+
 }
 
 
@@ -60,9 +38,6 @@
   margin-left: 65px;
   margin-top: 50px;
   margin-right: 55px;
-  border-color: blue;
-  border-style: solid;
-  border-width: 4px;
 
 }
 
@@ -74,12 +49,14 @@
 
 }
 
-#footer {
 
-  border-color:  yellow;
-  border-width: 4px;
+
+#footer {
+  color: white;
+  background-color: gray;
+  border-color: gray;
+  border-width: 2px;
   border-style: solid;
-  text-align: center;
 
 }
 
@@ -87,17 +64,13 @@
 
   font-size: 14px;
   font-family: serif;
-  border-color: purple;
-  border-width: 4px;
-  border-style: solid;
+  padding-left: 40%;
+
 }
 
 #tempMain {
 
   background-color: white;
-  border-color: red;
-  border-style: solid;
-  border-width: 4px;
   margin-top: 50px;
   margin-left: 65px;
   margin-right: 55px;
@@ -107,9 +80,6 @@
 #tempSide {
 
   background-color: white;
-  border-color:blue;
-  border-style: solid;
-  border-width: 4px;
   margin-left: 65px;
   margin-top: 50px;
   margin-right: 55px;
@@ -125,9 +95,6 @@
 #humidMain {
 
   background-color: white;
-  border-color: red;
-  border-style: solid;
-  border-width: 4px;
   margin-top: 50px;
   margin-left: 65px;
   margin-right: 55px;
@@ -137,9 +104,6 @@
 #humidSide {
 
   background-color: white;
-  border-color:blue;
-  border-style: solid;
-  border-width: 4px;
   margin-left: 65px;
   margin-top: 50px;
   margin-right: 55px;
@@ -149,5 +113,99 @@
 #humidCover {
 
   float: left;
+
+}
+
+#cloudsMain {
+
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 65px;
+  margin-right: 55px;
+
+}
+
+#cloudsSide {
+
+  background-color: white;
+  margin-left: 65px;
+  margin-top: 50px;
+  margin-right: 55px;
+
+}
+
+#cloudsCover {
+
+  float: left;
+
+}
+
+#windsMain {
+
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 65px;
+  margin-right: 55px;
+
+}
+
+#windsSide {
+
+  background-color: white;
+  margin-left: 65px;
+  margin-top: 50px;
+  margin-right: 55px;
+
+}
+
+#windsCover {
+
+  float: left;
+
+}
+
+#comparisonBody {
+
+  background-color: white;
+  padding-top: 20px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.comparisonImages {
+
+  display: inline-block;
+  padding-left: 40px;
+  padding-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+
+
+}
+
+.comparisonHeading {
+
+  text-align: center;
+  font-size: 18px;
+  font-family: serif;
+
+}
+
+#dataTop {
+
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 20px;
+
+
+}
+
+#datTable {
+
+  background-color: white;
 
 }

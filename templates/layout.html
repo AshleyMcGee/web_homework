@@ -8,28 +8,28 @@
       </head>
 
       <nav id ="navigation" class="navbar navbar-expand-lg navbar-light">
-          <a id="datLatitude" class="navbar-brand" href="landing.html">Latitude</a>
+          <a id="datLatitude" class="navbar-brand" href="/">Latitude</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul id="linkNode" class="navbar-nav">
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="visualization.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Plots
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="temp_x.html">Max Temperature</a>
-                        <a class="dropdown-item" href="humid_x.html">Humidity</a>
-                        <a class="dropdown-item" href="clouds_x.html">Cloudiness</a>
-                        <a class="dropdown-item" href="winds_x.html">Wind Speeds</a>
+                        <a class="dropdown-item" href="/temp">Max Temperature</a>
+                        <a class="dropdown-item" href="/humid">Humidity</a>
+                        <a class="dropdown-item" href="/clouds">Cloudiness</a>
+                        <a class="dropdown-item" href="/winds">Wind Speeds</a>
                       </div>
                     </li>
-                      <li class="nav-item active">
-                      <a class="nav-link" href="comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+                      <li class="nav-item">
+                      <a class="nav-link" href="/comparisons">Comparison <span class="sr-only"></span></a>
                      </li>
-                     <li class="nav-item active">
-                       <a class="nav-link" href="data.html">Data</a>
+                     <li class="nav-item">
+                       <a class="nav-link" href="/data">Data</a>
                      </li>
                    </ul>
               </div>
@@ -40,7 +40,7 @@
         {%endblock%}
         </div>
 
-    <nav id="footer" class="navbar fixed-bottom navbar-light bg-light">
+    <nav id="footer" class="navbar fixed-bottom">
         <div id="text" class="navbar-brand">Copyright Coding Bootcamp 2019</div>
     </nav>
 
@@ -48,6 +48,11 @@
       $(document).ready(function() {
         $('li.active').removeClass('active');
         $('a[href="' + location.pathname + '"]').closest('li').addClass('active');
+      });
+    </script>
+    <script>
+      $(document).ready(function() {
+        $(".dropdown-toggle").dropdown();
       });
     </script>
 

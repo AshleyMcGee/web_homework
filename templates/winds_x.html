@@ -2,25 +2,20 @@
 {%block content%}
   <!--  Row 1-->
   <div class="row">
-      <div class="col-3 col-md-8 col-lg-8">
+      <div id="windsMain" class="col-lg-6">
         <h1>Wind Speeds</h1>
         <hr></hr>
-      </div>
-  </div>
-
-  <!--  Row 2-->
-    <div class="row">
-      <div class="col-3 col-md-8 col-lg-8">
-        <img src="/static/citylatwinds.png" width=100%>
+        <img id="windsCover" src="/static/citylatwinds-med.png">
         <p>One cannot observe wind speed without also observing temperature. As temperatures rise, air pressure increases. As air pressure increases from one area to the next, wind speeds increase. Also notice how those five are further away from the equator, where pressure changes are more volatile. Again, I don't see this as unusual. In the mild and temperate temperatures recorded yesterday, and given their spread in the temperature plot, we can see that the 166 cities recorded between -40 degrees south Latitude and 20 degrees north Latitude have a fairly concentrated selection of cities of low or zero windspeeds near the equator. As one moves further north of the equator, wind speeds become more varied, reaching above 22mph at roughly 40 degrees north Latitude. In other words, the relative uniformity of moderate temperatures nearer to the equator means longer gradients of air pressure, therefore slower wind speeds.
         </p>
       </div>
-      <div class="col-3 col-md-4 col-lg-4">
+      <div id="windsSide" class="col-lg-4">
         <h1>Visualizations</h1>
-        <a href="humid_x.html"><img src='/static/citylattemp.png' width=40%></a>
-        <a href="temp_x.html"><img src='/static/citylathumid.png' width=40%></a>
-        <a href="clouds_x.html"><img src='/static/citylatclouds.png' width=40%></a>
-        <a href="winds_x.html"><img src='/static/citylatwinds.png' width=40%></a>
+        <hr>
+        <a href="/temp"><img src='/static/citylattempthumb2.png'></a>
+        <a href="/humid"><img src='/static/citylathumidthumb2.png'></a>
+        <a href="/clouds"><img src='/static/citylatcloudsthumb2.png'></a>
+        <a href="/winds"><img src='/static/citylatwindsthumb2.png'></a>
       </div>
     </div>
 

@@ -3,34 +3,28 @@
 
 <!--  Row 1-->
 <div class="row">
-    <div class="col-3 col-md-12 col-lg-12">
+    <div id="comparisonBody" class="col-md-10 col-lg-10">
       <h1>Comparison: Latitude vs. X</h1>
       <hr></hr>
       <p>Click any plot to get an in-depth analysis.</p>
+      <div id="imageNode">
+      <div class="comparisonImages col-md-5 col-lg-5">
+        <h2 class="comparisonHeading">vs. Max Temperature</h2>
+        <a href="/temp"><img src="/static/citylattemp-med.png"></a>
+      </div>
+      <div class="comparisonImages col-md-5 col-lg-5">
+        <h2 class="comparisonHeading">vs. Humidity</h2>
+        <a href="/humid"><img src="/static/citylathumid-med.png"></a>
+      </div>
+      <div class="comparisonImages col-md-5 col-lg-5">
+        <h2 class="comparisonHeading">vs. Cloudiness</h2>
+        <a href="/clouds"><img src="/static/citylatclouds-med.png"></a>
+      </div>
+      <div class="comparisonImages col-md-5 col-lg-5">
+        <h2 class="comparisonHeading">vs. Wind Speed</h2>
+        <a href="/winds"><img src="/static/citylatwinds-med.png"></a>
+      </div>
     </div>
-</div>
-
-<!--  Row 2-->
-<div class="row">
-    <div class="col-3 col-md-4 col-lg-4">
-          <h2>vs. Max Temperature</h2>
-          <img src="/static/citylattemp.png" width=100%>
-    </div>
-    <div class="col-3 col-md-4 col-lg-4">
-          <h2>vs. Humidity</h2>
-          <img src="/static/citylathumid.png" width=100%>
-    </div>
-</div>
-
-<!--  Row 3-->
-<div class="row">
-    <div class="col-3 col-md-4 col-lg-4">
-          <h2>vs. Cloudiness</h2>
-          <img src="/static/citylatclouds.png" width=100%>
-    </div>
-    <div class="col-3 col-md-4 col-lg-4">
-          <h2>vs. Wind Speed</h2>
-          <img src="/static/citylatwinds.png" width=100%>
-    </div>
+  </div>
 </div>
 {%endblock%}
